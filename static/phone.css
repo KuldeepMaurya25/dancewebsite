@@ -1,0 +1,119 @@
+@media(min-width:0px) and (max-width:760px)  {
+    #navbar{
+        width:100%;
+    }
+    #navbar ul{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #navbar ul li{
+       padding: 0px 0px;
+    }
+    #introSection {
+        width:100%;
+    }
+    #introSection div h1{
+        font-size: 40px;
+     
+    }
+    #introSection div h3{
+        font-size: 18px;
+       
+    }
+    #missionSection {
+        width: 100%;
+        height: 800px;
+    }
+    
+    #missionSection .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #missionSection .container .card{
+        width: 66%;
+        margin: 17px;
+    } 
+    #sponsorSection{
+        background-color: #c5c5c5;
+        width: 100%;
+        height: 676px;
+    } 
+    #spImage{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 180px;
+    }
+    #spImage img{
+        width: 300px;
+        margin: 8px;
+        height: 79px;
+    }  
+
+    #footer{
+        width:100%;
+    } 
+}
+
+
+
+@media (min-width:760px) and (max-width:1318px) {
+    #navbar{
+        width:100%;
+    }
+    #navbar ul{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #navbar ul li{
+       padding: 0px 0px;
+    }
+    #introSection {
+        width:100%;
+    }
+    #introSection div h1{
+        font-size: 65px;
+     
+    }
+    #introSection div h3{
+        font-size: 33px;
+       
+    }
+    #missionSection {
+        width: 100%;
+        height: 800px;
+    }
+    
+    #missionSection .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #missionSection .container .card{
+        width: 66%;
+        margin: 17px;
+    } 
+    #sponsorSection{
+        background-color: #c5c5c5;
+        width: 100%;
+        height: 676px;
+    } 
+    #spImage{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 180px;
+    }
+    #spImage img{
+        width: 325px;
+        margin: 8px;
+        height: 99px;
+    }  
+
+    #footer{
+        width:100%;
+    } 
+}

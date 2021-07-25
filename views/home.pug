@@ -1,0 +1,53 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+  
+block style
+  style
+      include ../static/style.css
+      include ../static/phone.css
+      //- include ../static/phone1.css
+
+block content
+     
+    section#introSection 
+        div 
+          h1 Kuldeep Dance Academy 
+        div 
+          h3 Eat Dance Sleep Repeat
+    section#missionSection 
+        
+        h1 Our misson
+        div.container
+          div.card 
+            h3 Dance Practice
+            div.card-box  
+               div.card-img 
+                  img(src="/static/img/1.png")
+               div.card-content 
+                  p This is best dance class in India
+
+          div.card 
+            h3 Dance the way you like
+            div.card-box    
+               div.card-img 
+                 img(src="/static/img/2.png")
+               div.card-content 
+                 p This is best dance class in India
+          div.card 
+            h3 Expert Teaching
+            div.card-box   
+               div.card-img 
+                 img(src="/static/img/3.png")
+               div.card-content 
+                 p This is best dance class in India
+    section#sponsorSection 
+         div 
+           h1 Our Sponsors
+         div#spImage 
+           img(src="/static/img/logo1.png") 
+           img(src="/static/img/logo2.png") 
+           img(src="/static/img/logo3.png") 
+           img(src="/static/img/logo4.png") 
+           img(src="/static/img/logo5.png") 

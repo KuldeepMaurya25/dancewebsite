@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Qahiri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Permanent+Marker&family=Qahiri&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar ul{
+    display:flex;
+    flex-direction: row;
+   
+}
+#navbar ul img{
+    height: 35px;
+    width: 44px;
+    
+}
+#logo{
+    display: flex;
+    align-items: center;
+    filter: invert(1);
+    font-family: 'Permanent Marker', cursive;
+    margin: 0px 16px;
+    font-size: 19px;
+
+}
+#navbar{
+    background-color: #163c5a;
+    
+}
+#navbar li{
+    list-style: none;
+    padding: 10px 30px;
+}
+#navbar li a{
+    text-decoration: none;
+  
+    color: white;
+    font-size: 19px;
+    font-family: 'Permanent Marker', cursive;
+}
+#navbar li a:hover{
+    
+    color:black;
+}
+#introSection{
+    height: 480px;
+    background: url('/static/bg.jpg') no-repeat center center/cover;
+   
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#introSection div h1{
+    font-size: 6rem;
+    padding: 11px 0px;
+    font-family: 'Permanent Marker', cursive;
+    color:#00bcd4;
+    text-shadow: 0px 7px 4px #003046;
+    
+
+}
+#introSection div h3{
+    font-size: 52px;
+    font-family: 'Permanent Marker', cursive;
+    color:#652dca;
+    text-shadow: 0px 7px 4px #040b31;
+}
+#missionSection{
+    
+   
+    height: 300px;
+   background-color:white; 
+
+}
+#missionSection h1{
+    text-align: center;
+    font-size: 38px;
+    padding: 12px 0px;
+    font-family: 'Courgette', cursive;
+   
+  
+
+}
+#missionSection .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#missionSection .card{
+    border-radius: 10px;
+    height: 194px;
+    width: 317px;
+    border: 1px solid black;
+ 
+     margin: 4px 14px; 
+     background-color: #ffedea;
+     box-shadow: 12px 8px 15px #ff4032;
+
+}
+#missionSection .card h3{
+     text-align: center;
+     font-family: 'Courgette', cursive;
+   margin: 13px;
+}
+#missionSection .card-box{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin: 16px;
+
+}
+.card-img img{
+   height: 100px;
+   padding: 0px 1px;
+}
+.card-content p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#sponsorSection{
+    
+   
+    height: 300px;
+    background-color: #bfa8a8;
+
+}
+    #sponsorSection h1{
+        text-align: center;
+        font-size: 38px;
+        padding: 12px 0px;
+        font-family: 'Courgette', cursive;
+    }
+ #spImage{
+    display: flex;
+    height: 126px;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 55px;
+ } 
+ #spImage img{
+     padding: 0px 22px;
+ }  
+    
+#footer{
+   height: 30px;
+   background-color: black;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Courgette', cursive;
+}
